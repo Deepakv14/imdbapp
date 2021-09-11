@@ -196,13 +196,27 @@ h6 {
     color: blue;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
     .header {
-        margin-left: 33%;
+        margin-left: 15%;
         /* The width is 100%, when the viewport is 800px or smaller */
     }
-    .left {
-        margin-left: 1rem;
+    .slideshow-container {
+        margin-left: -24%;
+    }
+    .prev,
+    .next,
+    .numbertext {
+        margin-left: -3%;
+    }
+    .numbertext {
+        margin-left: -2%;
+    }
+    .next {
+        margin-right: 4rem;
+    }
+    .text {
+        margin-left: -9%;
     }
 }
 
