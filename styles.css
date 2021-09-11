@@ -1,0 +1,217 @@
+.header {
+    background: rgb(255, 251, 3);
+    border-radius: 5px;
+    width: 78px;
+    height: 25px;
+    margin-left: 45%;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 2rem;
+    ;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to left, rgb(32, 31, 31), black, black, black, black, black, black, black, black, black, rgb(44, 42, 42));
+}
+
+header:hover {
+    background: rgb(46, 46, 48);
+    color: red;
+    transition: all 0.3s ease;
+}
+
+.left,
+.right {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+
+/* {
+box-sizing: border-box
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+    top: 4rem;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Hide the images by default */
+
+
+/*.mySlides {
+    display: none;
+}
+
+
+/* Next & previous buttons */
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    margin-left: 0.4rem;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    background-color: rgba(0, 0, 0, 0.8);
+    outline: white;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    cursor: pointer;
+    position: absolute;
+    margin-right: 0.5rem;
+    width: auto;
+    top: 55%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 3px 0 0 3px;
+    background-color: rgba(0, 0, 0, 0.8);
+    user-select: none;
+    right: 0;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* Caption text */
+
+.text {
+    color: #080000;
+    font-size: 25px;
+    position: relative;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    top: 1%;
+    position: absolute;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.right {
+    margin-top: 4rem;
+}
+
+.movie {
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+input {
+    width: 95%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+button {
+    padding: 5px;
+    background: #ffff;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 50px;
+    outline: none;
+    border: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    color: blanchedalmond;
+    align-items: center;
+    width: 100%;
+}
+
+h1,
+h6 {
+    color: blue;
+}
+
+@media screen and (max-width: 360px) {
+    .header {
+        margin-left: 33%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .left {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        margin-left: 37%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .left {
+        margin-left: 7rem;
+    }
+}

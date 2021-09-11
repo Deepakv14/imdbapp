@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>imdb project</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div>IMDb</div>
+
+    </header>
+    <div class="card">
+        <div class="left">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 7</div>
+                    <img src="./images/Avengers_1.jpg" style="width:300px">
+                    <div class="text">Avengers</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 7</div>
+                    <img src="./images/spiderman.jpg" style="width:300px">
+                    <div class="text">Spiderman 3</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 /7</div>
+                    <img src="./images/harry_2.jpg" style="width:300px ">
+                    <div class="text">Chambers of Secrets</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4/7</div>
+                    <img src="./images/Avengers_2.jpg" style="width:300px ">
+                    <div class="text">Avengers: Age of Ultron</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 7</div>
+                    <img src="./images/harry_3.jpg" style="width:300px">
+                    <div class="text">The Prisoners of Azkabaan</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 7</div>
+                    <img src="./images/Avengers_3.jpg" style="width:300px">
+                    <div class="text">Avengers:Infinity War</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 7</div>
+                    <img src="./images/Avengers_4.jpg" style="width:300px ">
+                    <div class="text">Avengers:Endgame</div>
+                </div>
+
+                <a class="prev dot" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next dot" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+        <div class="right">
+            <label for="movie" class="movie">Enter Movie name</label>
+            <input type="movie" placeholder="Movie name" id="text1"></input>
+            <button id="btn">Go</button>
+            <p id="demo"></p>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
